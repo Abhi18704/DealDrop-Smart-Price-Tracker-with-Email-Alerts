@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/dialog"
 import { Button } from "./ui/button"
 import { createClient } from "@/utils/supabase/client";
-
 export function AuthModal({isOpen,onClose}) {
   const supabase=createClient();
   const handleGoogleLogin=async()=>{

@@ -39,5 +39,4 @@ const AuthButton = ({ user }) => {
     </>
   );
 };
-
 export default AuthButton;
